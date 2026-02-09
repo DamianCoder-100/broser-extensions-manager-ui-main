@@ -21,6 +21,7 @@
     --filter-toggle-btn-bg-color: hsl(3, 71%, 56%);
     --filter-toggle-btn-text-color: hsl(200, 60%, 99%);
     --logo-box-shadow-color: hsl(202, 5%, 69%);
+    --svg-color: hsl(253, 89%, 11%);
 
 }
 
@@ -51,6 +52,7 @@
     --filter-toggle-btn-bg-color: hsl(3, 71%, 56%);
     --filter-toggle-btn-text-color: hsl(277, 75%, 14%);
     --logo-box-shadow-color: hsla(0, 100%, 99%, 0);
+    --svg-color: hsl(200, 60%, 99%);
 
 }
 
@@ -79,6 +81,11 @@ body {
     border-radius: 10px;
 
     box-shadow: 0 1px 3px var(--logo-box-shadow-color);
+}
+
+.svg-color{
+    fill: var(--svg-color);
+  
 }
 
 .img-logo {

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Browser extensions manager UI</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <!-- <body data-theme="dark"> -->
+    
+  </body>
+  <div class="container">
+    <div class="flex">
+      <div class="logo">
+        <img class="img-logo" src="./assets/images/logo.svg" alt="logo">
+
+        <div class="theme-toggle" role="button" tabindex="0" aria-label="Toggle dark mode" id="theme-toggle">
+          <img src="./assets/images/icon-sun.svg" alt="sun icon" class="sun icon">
+          <img src="./assets/images/icon-moon.svg" alt="moon icon" class="moon icon">
+        </div>
+
+      </div>
+    </div>
+    <div class="flex-h2-Nbtns">
+      <div class="heading">
+        <h1>Extensions List</h1>
+      </div>
+      <div class="flex-btns">
+        <button data-filter="all" class="all-btn filter-btn active" id="all">All</button>
+        <button data-filter="active" class="active-btn filter-btn" id="active">Active</button>
+        <button data-filter="inactive" class="inactive-btn filter-btn" id="inactive">Inactive</button>
+      </div>
+    </div>
+
+<div class="grid" id="grid">
+  <!-- <div class="card show">
+    <div class="card-flex">
+      <img src="./assets/images/logo-devlens.svg" alt="DevLens logo" class="img">
+      <div class="card-text">
+        <h2>DevLens</h2>
+        <p class="para">Quickly inspect page layouts and visualize element boundaries.</p>
+      </div>
+    </div>
+    <div class="flex-card-btns">
+      <button class="remove-btn">Remove</button>
+      <label class="switch toggle-btn">
+          <input type="checkbox">
+          <span class="slider round"></span>
+        </label>
+      </div>
+    </div> -->
+  </div>
+
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>
